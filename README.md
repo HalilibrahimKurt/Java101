@@ -1,9 +1,7 @@
 # Pratik - Not Ortalaması Hesaplayan Program
 
 import java.util.Scanner;
-
 public class Main {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Matematik Sınav Notu:");
@@ -19,7 +17,6 @@ public class Main {
 		System.out.print("Müzik Sınav Notu:");
 		int muzik = scanner.nextInt();
 		scanner.close();
-		
 		int ortalama = (matematik+fizik+kimya+tarih+turkce+muzik)/6;
 		System.out.println("Ortalama: " + ortalama);
 		boolean durum = ortalama > 60;
